@@ -9,7 +9,7 @@ CREATE TABLE products (
   price DECIMAL (10,2) NOT NULL,
   stock INT default 0,
   PRIMARY KEY (id)
-);
+);  
 
 INSERT INTO products (item_name, department, price, stock)
 values ("White T-Shirt", "Clothing", 2.50, 10), ("Levi's Jeans", "Clothing", 18.75, 5), ("Nike Ball Cap", "Headwear", 5.50, 0),
